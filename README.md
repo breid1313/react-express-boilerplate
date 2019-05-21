@@ -13,3 +13,8 @@ With a few commands, you'll be able to get your boilerplate application up and r
 Once you've started both your React application and Express server, go ahead and navigate your browser to localhost:3000. This is what you should see:
 ![alt-text](https://user-images.githubusercontent.com/38542593/58131478-c343a780-7bec-11e9-9c9b-77d79fcfc920.png)
 The middle line of text shown on the page, "API is working properly" is actually being fetched from our Express server. If you are interested, head over to localhost:9000 on your browser, and you can see the simple UI that has comes with our Express app. The message seen on our React app is coming from localhost:9000/testAPI. Navigating there should take you to an otherwise blank page with the text "API is working properly" in the top left corner.
+
+## Further Reading
+Hopefully this helped you get off to a quick start using React and Express!
+
+If you'd like to learn more about these two technologies, have errors to troubleshoot, or want to recreate this application from scratch on your own, take a look at [Facebook's create-react-app repo](https://github.com/facebook/create-react-app) and the Express documentation on [getting started](https://expressjs.com/en/starter/installing.html).
