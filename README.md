@@ -11,5 +11,4 @@ With a few commands, you'll be able to get your boilerplate application up and r
 
 ## Ensuring the Application is Working Properly
 Once you've started both your React application and Express server, go ahead and navigate your browser to localhost:3000. This is what you should see:
-![alt text](./assets/success/splash.png "React-Express splash page")
 The second middle line of text, "API is working properly" is actually being fetched from out Express server. If you are interested, head over to localhost:9000 on your browser, and you can see the simple UI that has comes with our Express app. The message seen on our React app is coming from localhost:9000/testAPI. Navigating there should take you to an otherwise blank page with the text "API is working properly" in the top left corner.
